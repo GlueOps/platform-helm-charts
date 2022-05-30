@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-30T16:16:03.068002261Z"
+    description: A Helm chart for Kubernetes
+    digest: d752295e9b74988a18d355855c0d934d302326b51bdb00279aaed79d8d781ddc
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/GlueOps/helm-charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-30T16:16:03.068007861Z"
