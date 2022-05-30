@@ -8,7 +8,7 @@ metadata:
 spec:
   tls:
   - hosts:
-    - {{ .Values.domain }}
+    - {{ .Values.domain | quote }}
     secretName: echo-tls
   rules:
     - host: {{ .Values.domain }}
