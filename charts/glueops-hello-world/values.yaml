@@ -9,5 +9,5 @@ appName: hello-world
 
 image: ghcr.io/glueops/test-node-app:1.0.2
 
-domains: echo1.venkatamutyala.com
+domain: echo1.venkatamutyala.com
 
