@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - {{ .Value.domain }}
+    - {{ .Values.domain }}
     secretName: echo-tls
   rules:
-    - host: {{ .Value.domain }}
+    - host: {{ .Values.domain }}
       http:
         paths:
           - pathType: Prefix
