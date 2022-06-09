@@ -1,5 +1,20 @@
 apiVersion: v1
 entries:
+  glueops-cert-manager:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-06-09T04:48:15.893833011Z"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.8.0
+    description: GlueOps Helm Chart for cert-manager with sensible defaults. This
+      chart also expects CRD's to be installed using another method
+    digest: c037cb0ec39038f395ecaef8dad8d79eadae30af52d988a3d18f8b0354274e40
+    name: glueops-cert-manager
+    urls:
+    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.1.0/glueops-cert-manager-0.1.0.tgz
+    version: 0.1.0
   glueops-hello-world:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -103,4 +118,4 @@ entries:
     urls:
     - https://github.com/GlueOps/helm-charts/releases/download/hello-world-2-0.1.0/hello-world-2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-30T17:04:15.135328879Z"
+generated: "2022-06-09T04:48:15.89385621Z"
