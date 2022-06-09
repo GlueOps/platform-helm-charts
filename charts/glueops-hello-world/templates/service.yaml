@@ -2,6 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   name: {{ .Values.appName }}-service
+  annotations:
+    external-dns.alpha.kubernetes.io/hostname: {{ .Values.domain }}
 spec:
   selector:
     app: {{ .Values.appName }}
