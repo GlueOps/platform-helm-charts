@@ -11,3 +11,4 @@ image: ghcr.io/glueops/test-node-app:1.0.2
 
 domain: echo1.venkatamutyala.com
 
+dnsTTL: "30"
