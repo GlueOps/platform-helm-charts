@@ -4,7 +4,7 @@ metadata:
   name: {{ .Values.appName }}-service
   annotations:
     external-dns.alpha.kubernetes.io/hostname: {{ .Values.domain }}
-    external-dns.alpha.kubernetes.io/ttl: "30"
+    external-dns.alpha.kubernetes.io/ttl: "120"
 spec:
   selector:
     app: {{ .Values.appName }}
