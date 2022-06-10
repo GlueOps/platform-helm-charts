@@ -32,6 +32,16 @@ entries:
   glueops-hello-world:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2022-06-10T02:12:06.502900306Z"
+    description: A Helm chart for Kubernetes
+    digest: 81afc1b1e9e8bbbd53d05df735de1b109675b823f7781fcd73fdb20c4b56ebfe
+    name: glueops-hello-world
+    type: application
+    urls:
+    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.5.4/glueops-hello-world-0.5.4.tgz
+    version: 0.5.4
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2022-06-10T02:06:49.058963711Z"
     description: A Helm chart for Kubernetes
     digest: 522fba2f75b12de4fbc000d469a7c5ca7a40f79807b07fa850bd5f4b3d67f776
@@ -172,4 +182,4 @@ entries:
     urls:
     - https://github.com/GlueOps/helm-charts/releases/download/hello-world-2-0.1.0/hello-world-2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-10T02:06:49.059126112Z"
+generated: "2022-06-10T02:12:06.503329412Z"
