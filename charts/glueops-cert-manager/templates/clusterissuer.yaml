@@ -4,7 +4,7 @@ data:
 kind: Secret
 metadata:
   name: cloud-dns-svc-acct
-  namespace: default
+  namespace: glueops-core-cert-manager
 type: Opaque
 ---
 apiVersion: cert-manager.io/v1
@@ -21,7 +21,7 @@ spec:
     - dns01:
         cloudDNS:
           project: {{ index (index .Values "cert-manager") "google_cloud_project_id"  }}
-          serviceAccountRef: 
+          serviceAccountSecretRef: 
             name: cloud-dns-svc-acct
             key: key.json
 ---
@@ -39,6 +39,6 @@ spec:
     - dns01:
         cloudDNS:
           project: {{ index (index .Values "cert-manager") "google_cloud_project_id"  }}
-          serviceAccountRef: 
+          serviceAccountSecretRef: 
             name: cloud-dns-svc-acct
             key: key.json
