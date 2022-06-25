@@ -1,4 +1,12 @@
-
+apiVersion: v1
+data:
+  key.json: {{ index (index .Values "cert-manager") "google_cloud_service_account_key" }}
+kind: Secret
+metadata:
+  name: cloud-dns-svc-acct
+  namespace: default
+type: Opaque
+---
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
@@ -10,7 +18,12 @@ spec:
     privateKeySecretRef:
       name: glueops-cert-letsencrypt-prod
     solvers:
-      {{ index (index .Values "cert-manager") "solvers"}}
+    - dns01:
+      cloudDNS:
+        project: {{ index (index .Values "cert-manager") "google_cloud_project_id"  }}
+        serviceAccountRef: 
+          name: cloud-dns-svc-acct
+          key: key.json
 ---
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
@@ -23,4 +36,9 @@ spec:
     privateKeySecretRef:
       name: glueops-cert-letsencrypt-nonprod
     solvers:
-      {{ index (index .Values "cert-manager") "solvers"}}
+    - dns01:
+      cloudDNS:
+        project: {{ index (index .Values "cert-manager") "google_cloud_project_id"  }}
+        serviceAccountRef: 
+          name: cloud-dns-svc-acct
+          key: key.json

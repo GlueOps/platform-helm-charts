@@ -4,7 +4,6 @@
 
 cert-manager:
   installCRDs: false
-  solvers: |-
-    http01:
-            ingress:
-              class: nginx
+  google_cloud_project_id: ""
+  google_cloud_service_account_key: ""
+
