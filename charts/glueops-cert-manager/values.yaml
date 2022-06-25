@@ -4,3 +4,7 @@
 
 cert-manager:
   installCRDs: false
+  solvers: |-
+    http01:
+            ingress:
+              class: nginx
