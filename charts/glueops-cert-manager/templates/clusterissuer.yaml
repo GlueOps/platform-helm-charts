@@ -6,7 +6,7 @@ metadata:
 type: Opaque
 stringData:
   api-token: {{ index (index .Values "cert-manager") "cloudflare_api_token" }}
---
+---
 apiVersion: v1
 kind: Secret
 metadata:
