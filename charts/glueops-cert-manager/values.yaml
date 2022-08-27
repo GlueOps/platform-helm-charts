@@ -4,6 +4,7 @@
 
 cert-manager:
   installCRDs: false
-  google_cloud_project_id: ""
-  google_cloud_service_account_key: ""
+  cloudflare_api_token: ""
+  zerossl_eab_hmac_key: ""
+  zerossl_eab_kid: ""
 
