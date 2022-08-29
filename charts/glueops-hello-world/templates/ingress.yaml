@@ -20,4 +20,4 @@ spec:
               service:
                 name: {{ .Values.appName }}-service
                 port:
-                  number: {{ .Values.appPort }}
+                  number: 8080

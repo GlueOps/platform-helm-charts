@@ -10,4 +10,4 @@ spec:
     app: {{ .Values.appName }}
   ports:
     - protocol: TCP
-      port: {{ .Values.appPort }}
+      port: 8080
