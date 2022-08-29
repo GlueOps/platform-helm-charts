@@ -10,4 +10,4 @@ spec:
     app: {{ .Values.appName }}
   ports:
     - protocol: TCP
-      port: 3000
+      port: {{ .Values.appPort }}
