@@ -13,7 +13,7 @@ entries:
     digest: 3b00a945781ffd0f45f67fd978698c92e85e14c8f05f26a48c50c48bf2855844
     name: glueops-cert-manager
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.4.0/glueops-cert-manager-0.4.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.4.0/glueops-cert-manager-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: v0.1.0
@@ -27,7 +27,7 @@ entries:
     digest: 27c37dfd7f490d68198c85c4444cec43dd9792331257c53afcf565b6185abe26
     name: glueops-cert-manager
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.3.1/glueops-cert-manager-0.3.1.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.3.1/glueops-cert-manager-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v2
     appVersion: v0.1.0
@@ -41,7 +41,7 @@ entries:
     digest: 3d36096e9c59576f9ed6783518829e49a9541b8cf52bd0082584d8ae10180af2
     name: glueops-cert-manager
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.3.0/glueops-cert-manager-0.3.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.3.0/glueops-cert-manager-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: v0.1.0
@@ -55,7 +55,7 @@ entries:
     digest: 9775fb22207b85a4134194935498e082f0f487c5ac7fb8da2ed09d54bb7de0bc
     name: glueops-cert-manager
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.2.4/glueops-cert-manager-0.2.4.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.2.4/glueops-cert-manager-0.2.4.tgz
     version: 0.2.4
   - apiVersion: v2
     appVersion: v0.1.0
@@ -69,7 +69,7 @@ entries:
     digest: 49cc0bed1d56cf9006f40c0afec256ea0cbd4f5e8e99a88f13a55ea3cc88f5bb
     name: glueops-cert-manager
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.2.3/glueops-cert-manager-0.2.3.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.2.3/glueops-cert-manager-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v2
     appVersion: v0.1.0
@@ -83,7 +83,7 @@ entries:
     digest: 3d25962f3b640d5c0952e53563ebcbbbea44f2e7ddb7948e264cc47ee09fcfee
     name: glueops-cert-manager
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.2.2/glueops-cert-manager-0.2.2.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.2.2/glueops-cert-manager-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v2
     appVersion: v0.1.0
@@ -97,7 +97,7 @@ entries:
     digest: 2044f8ee6ae959afc03e9b3856c13f55ba605f6f8f0b05b4563be959689554cb
     name: glueops-cert-manager
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.2.1/glueops-cert-manager-0.2.1.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.2.1/glueops-cert-manager-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
     appVersion: v0.1.0
@@ -111,7 +111,7 @@ entries:
     digest: 6925f520545bd1d2b515a84be4c02762dd73f467e96e3c1459b15d638a6f4fbe
     name: glueops-cert-manager
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.2.0/glueops-cert-manager-0.2.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.2.0/glueops-cert-manager-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: v0.1.0
@@ -125,7 +125,7 @@ entries:
     digest: 5d8a7379be94db0b64345c43b9681070134779f61e2a6171d474457fe0d419fb
     name: glueops-cert-manager
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.1.1/glueops-cert-manager-0.1.1.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.1.1/glueops-cert-manager-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: v0.1.0
@@ -139,7 +139,7 @@ entries:
     digest: c037cb0ec39038f395ecaef8dad8d79eadae30af52d988a3d18f8b0354274e40
     name: glueops-cert-manager
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-cert-manager-0.1.0/glueops-cert-manager-0.1.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.1.0/glueops-cert-manager-0.1.0.tgz
     version: 0.1.0
   glueops-hello-world:
   - apiVersion: v2
@@ -150,7 +150,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.6.3/glueops-hello-world-0.6.3.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.6.3/glueops-hello-world-0.6.3.tgz
     version: 0.6.3
   - apiVersion: v2
     appVersion: 0.1.0
@@ -160,7 +160,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.6.2/glueops-hello-world-0.6.2.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.6.2/glueops-hello-world-0.6.2.tgz
     version: 0.6.2
   - apiVersion: v2
     appVersion: 0.1.0
@@ -170,7 +170,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.6.1/glueops-hello-world-0.6.1.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.6.1/glueops-hello-world-0.6.1.tgz
     version: 0.6.1
   - apiVersion: v2
     appVersion: 0.1.0
@@ -180,7 +180,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.6.0/glueops-hello-world-0.6.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.6.0/glueops-hello-world-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.1.0
@@ -190,7 +190,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.5.5/glueops-hello-world-0.5.5.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.5.5/glueops-hello-world-0.5.5.tgz
     version: 0.5.5
   - apiVersion: v2
     appVersion: 0.1.0
@@ -200,7 +200,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.5.4/glueops-hello-world-0.5.4.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.5.4/glueops-hello-world-0.5.4.tgz
     version: 0.5.4
   - apiVersion: v2
     appVersion: 0.1.0
@@ -210,7 +210,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.5.3/glueops-hello-world-0.5.3.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.5.3/glueops-hello-world-0.5.3.tgz
     version: 0.5.3
   - apiVersion: v2
     appVersion: 0.1.0
@@ -220,7 +220,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.5.2/glueops-hello-world-0.5.2.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.5.2/glueops-hello-world-0.5.2.tgz
     version: 0.5.2
   - apiVersion: v2
     appVersion: 0.1.0
@@ -230,7 +230,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.5.1/glueops-hello-world-0.5.1.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.5.1/glueops-hello-world-0.5.1.tgz
     version: 0.5.1
   - apiVersion: v2
     appVersion: 0.1.0
@@ -240,7 +240,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.5.0/glueops-hello-world-0.5.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.5.0/glueops-hello-world-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.1.0
@@ -250,7 +250,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.4.5/glueops-hello-world-0.4.5.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.4.5/glueops-hello-world-0.4.5.tgz
     version: 0.4.5
   - apiVersion: v2
     appVersion: 0.1.0
@@ -260,7 +260,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.4.3/glueops-hello-world-0.4.3.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.4.3/glueops-hello-world-0.4.3.tgz
     version: 0.4.3
   - apiVersion: v2
     appVersion: 0.1.0
@@ -270,7 +270,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.4.2/glueops-hello-world-0.4.2.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.4.2/glueops-hello-world-0.4.2.tgz
     version: 0.4.2
   - apiVersion: v2
     appVersion: 0.1.0
@@ -280,7 +280,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.4.1/glueops-hello-world-0.4.1.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.4.1/glueops-hello-world-0.4.1.tgz
     version: 0.4.1
   - apiVersion: v2
     appVersion: 0.1.0
@@ -290,7 +290,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.4.0/glueops-hello-world-0.4.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.4.0/glueops-hello-world-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.1.0
@@ -300,7 +300,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.3.0/glueops-hello-world-0.3.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.3.0/glueops-hello-world-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.1.0
@@ -310,7 +310,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.2.0/glueops-hello-world-0.2.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.2.0/glueops-hello-world-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
@@ -320,7 +320,7 @@ entries:
     name: glueops-hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/glueops-hello-world-0.1.0/glueops-hello-world-0.1.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.1.0/glueops-hello-world-0.1.0.tgz
     version: 0.1.0
   hello-world:
   - apiVersion: v2
@@ -331,7 +331,7 @@ entries:
     name: hello-world
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
     version: 0.1.0
   hello-world-2:
   - apiVersion: v2
@@ -342,6 +342,6 @@ entries:
     name: hello-world-2
     type: application
     urls:
-    - https://github.com/GlueOps/helm-charts/releases/download/hello-world-2-0.1.0/hello-world-2-0.1.0.tgz
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/hello-world-2-0.1.0/hello-world-2-0.1.0.tgz
     version: 0.1.0
 generated: "2022-08-30T18:56:11.021794471Z"
