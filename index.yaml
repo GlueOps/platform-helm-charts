@@ -322,6 +322,20 @@ entries:
     urls:
     - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-hello-world-0.1.0/glueops-hello-world-0.1.0.tgz
     version: 0.1.0
+  glueops-terraform-cloud-operator:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2022-10-14T23:24:27.531991779Z"
+    dependencies:
+    - name: terraform
+      repository: https://helm.releases.hashicorp.com
+      version: 1.1.1
+    description: GlueOps Helm Chart for terraform-cloud-operator
+    digest: 500c81e24cda359c537c852a1415b78af74c1619c7221cf240a9b4df5db31600
+    name: glueops-terraform-cloud-operator
+    urls:
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-terraform-cloud-operator-0.1.0/glueops-terraform-cloud-operator-0.1.0.tgz
+    version: 0.1.0
   hello-world:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -344,4 +358,4 @@ entries:
     urls:
     - https://github.com/GlueOps/platform-helm-charts/releases/download/hello-world-2-0.1.0/hello-world-2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-30T18:56:11.021794471Z"
+generated: "2022-10-14T23:24:27.53211458Z"
