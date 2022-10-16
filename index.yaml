@@ -352,6 +352,15 @@ entries:
   glueops-vault-prerequisites:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2022-10-16T18:07:46.397857747Z"
+    description: vault prerequisites before the official vault helm chart can be installed
+    digest: 37a27d9d27ecb1409fe45a4c5007c19719eab923fdcb550254af6641af62be4f
+    name: glueops-vault-prerequisites
+    urls:
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-vault-prerequisites-0.1.3/glueops-vault-prerequisites-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2022-10-16T18:05:39.786733834Z"
     description: vault prerequisites before the official vault helm chart can be installed
     digest: 6a25955ec936fe00c3247d8cd793fc86769648209d9e16ff57d3dd6c323fa7b8
@@ -413,4 +422,4 @@ entries:
     urls:
     - https://github.com/GlueOps/platform-helm-charts/releases/download/terraform-1.1.1/terraform-1.1.1.tgz
     version: 1.1.1
-generated: "2022-10-16T18:05:39.786954235Z"
+generated: "2022-10-16T18:07:46.397979249Z"
