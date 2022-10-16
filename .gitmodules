@@ -1,0 +1,3 @@
+[submodule "charts/terraform-helm"]
+	path = charts/terraform-helm
+	url = https://github.com/GlueOps/terraform-helm.git
