@@ -325,6 +325,19 @@ entries:
   glueops-terraform-cloud-operator:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2022-10-16T01:20:50.184228065Z"
+    dependencies:
+    - name: terraform
+      repository: https://glueops.github.io/platform-helm-charts
+      version: 1.1.1
+    description: GlueOps Helm Chart for terraform-cloud-operator
+    digest: 8d6019956cdc8400294312651e9e27ac5e6066cdbef69330a26f1730eac07d4d
+    name: glueops-terraform-cloud-operator
+    urls:
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-terraform-cloud-operator-0.2.0/glueops-terraform-cloud-operator-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2022-10-14T23:24:27.531991779Z"
     dependencies:
     - name: terraform
@@ -372,4 +385,4 @@ entries:
     urls:
     - https://github.com/GlueOps/platform-helm-charts/releases/download/terraform-1.1.1/terraform-1.1.1.tgz
     version: 1.1.1
-generated: "2022-10-16T01:12:52.247840094Z"
+generated: "2022-10-16T01:20:50.184415182Z"
