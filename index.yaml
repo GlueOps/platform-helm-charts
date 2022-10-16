@@ -358,4 +358,18 @@ entries:
     urls:
     - https://github.com/GlueOps/platform-helm-charts/releases/download/hello-world-2-0.1.0/hello-world-2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-14T23:24:27.53211458Z"
+  terraform:
+  - apiVersion: v1
+    created: "2022-10-16T01:12:52.247707188Z"
+    description: Install and configure Terraform Cloud Operator on Kubernetes.
+    digest: 11a08d3c5cf9e0ac266577fdf0b678895c30f54cca1e41f3ccbb6be7c291dab3
+    home: https://www.terraform.io
+    name: terraform
+    sources:
+    - https://github.com/hashicorp/terraform
+    - https://github.com/hashicorp/terraform-helm
+    - https://github.com/hashicorp/terraform-k8s
+    urls:
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/terraform-1.1.1/terraform-1.1.1.tgz
+    version: 1.1.1
+generated: "2022-10-16T01:12:52.247840094Z"
