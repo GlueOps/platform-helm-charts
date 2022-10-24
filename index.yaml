@@ -3,6 +3,20 @@ entries:
   glueops-cert-manager:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2022-10-24T22:52:18.448209958Z"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.10.0
+    description: GlueOps Helm Chart for cert-manager with sensible defaults. This
+      chart also expects CRD's to be installed using another method
+    digest: 2dab850006b1de9436ee17f809d346d92ee1fa8d1f5ddb1c4afe07182643301d
+    name: glueops-cert-manager
+    urls:
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-cert-manager-0.5.0/glueops-cert-manager-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2022-08-30T18:56:11.021452372Z"
     dependencies:
     - name: cert-manager
@@ -422,4 +436,4 @@ entries:
     urls:
     - https://github.com/GlueOps/platform-helm-charts/releases/download/terraform-1.1.1/terraform-1.1.1.tgz
     version: 1.1.1
-generated: "2022-10-16T18:07:46.397979249Z"
+generated: "2022-10-24T22:52:18.448331561Z"
