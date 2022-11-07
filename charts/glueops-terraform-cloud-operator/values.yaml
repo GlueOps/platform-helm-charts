@@ -21,3 +21,8 @@ terraform:
   syncWorkspace:
     k8WatchNamespace: nil
     logLevel: error
+
+
+global:
+  terraform_cloud_organization_name: nil
+  
