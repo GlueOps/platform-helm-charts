@@ -339,6 +339,19 @@ entries:
   glueops-terraform-cloud-operator:
   - apiVersion: v2
     appVersion: v0.1.0
+    created: "2022-11-07T01:24:21.757627727Z"
+    dependencies:
+    - name: terraform
+      repository: https://glueops.github.io/platform-helm-charts
+      version: 1.1.1
+    description: GlueOps Helm Chart for terraform-cloud-operator
+    digest: 9c47b089a2462fa887a4bc27285b3932435ded3f1fb357fd7cafa45ea592baf5
+    name: glueops-terraform-cloud-operator
+    urls:
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/glueops-terraform-cloud-operator-0.3.0/glueops-terraform-cloud-operator-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: v0.1.0
     created: "2022-10-16T01:20:50.184228065Z"
     dependencies:
     - name: terraform
@@ -436,4 +449,17 @@ entries:
     urls:
     - https://github.com/GlueOps/platform-helm-charts/releases/download/terraform-1.1.1/terraform-1.1.1.tgz
     version: 1.1.1
-generated: "2022-10-24T22:52:18.448331561Z"
+  - apiVersion: v1
+    created: "2022-11-07T01:24:21.932342008Z"
+    description: Install and configure Terraform Cloud Operator on Kubernetes.
+    digest: 39c839eaa6bb6a2672a069ef66a00a100ef42eeafd5defff0494228afdd38b67
+    home: https://www.terraform.io
+    name: terraform
+    sources:
+    - https://github.com/hashicorp/terraform
+    - https://github.com/glueops/terraform-helm
+    - https://github.com/glueops/terraform-k8s
+    urls:
+    - https://github.com/GlueOps/platform-helm-charts/releases/download/terraform-0.1.0/terraform-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-07T01:24:21.93244751Z"
