@@ -2,8 +2,8 @@ apiVersion: v2
 appVersion: v0.1.0
 description: GlueOps Helm Chart for terraform-cloud-operator
 name: glueops-terraform-cloud-operator
-version: 0.5.1
+version: 0.6.0
 dependencies:
   - name: terraform
-    version: 0.2.1
+    version: 0.3.0
     repository: https://glueops.github.io/platform-helm-charts
